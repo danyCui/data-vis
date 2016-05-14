@@ -220,8 +220,8 @@ var model={
 			}
 			forceobj.nodes=nodes;
 			forceobj.edges=edges;
-			console.log(nodes);
-			console.log(edges);
+			//console.log(nodes);
+			//console.log(edges);
 			return forceobj;
 		}
 		function findname(id,data){

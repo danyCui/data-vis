@@ -108,7 +108,7 @@ function createPie(currentActive){
 							"title":active.title+"——"+active.data[j].property,
 							"data":active.data[j].propertyVal
 						}
-						console.log(piedata);
+						//console.log(piedata);
 						drawPie(main,pieData);
 						return;
 					}
@@ -136,7 +136,7 @@ function createTree(currentActive){
  	savePic(width-20,height,svg.attr("id"));
  	
  	var treeData=model.treeData(currentActive);
- 	console.log(treeData.data);
+ 	//console.log(treeData.data);
  	drawTree(width,height,svgcontainer,treeData);
 }
 function createFord(currentActive){
