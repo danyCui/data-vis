@@ -114,7 +114,7 @@ function createPie(currentActive){
 					}
 				}	
 	});
-
+	$('.dataproperty').find("li").eq(0).trigger("click");
 	
 }
 function createTree(currentActive){
