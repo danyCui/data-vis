@@ -48,15 +48,19 @@ var model={
 			return dataobj;
 		}
 		function init(data){
+			//console.log(data);
 			dataobj.title=data.title;
 			var array=[];
 			for(var i=0;i<data.data.length;i++){
+
 				var item=data.data[i];
+				//console.log(item);
 				var obj={};
 				obj.property=item.name;
 				obj.id=item.id;
 				obj.propertyVal=item.children;
-				array.push(array);
+				array.push(obj);
+				//debugger
 			}
 			dataobj.data=array;
 			return dataobj;

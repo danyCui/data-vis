@@ -48,7 +48,7 @@ $(function(){
 function loaddata(){
 	$.ajax({
 			type:"get",
-			url:'http://10.108.215.140:8888/springmvc/test/test1',
+			url:'http://10.108.215.140:8888/springmvc/view/viewaction',
 			async:"false",
 			data:"",
 			dataType:"json",
@@ -72,6 +72,7 @@ function createBar(currentActive){
 	var html='<div id="main"></div>';
 	$(".content").append(html);
 	var barData=model.commonData(currentActive);
+	//console.log(barData);
 	var main=document.getElementById('main');
 	drawBar(main,barData);
 }
