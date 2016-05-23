@@ -1,0 +1,44 @@
+{
+	"title":"title",
+	"data":[
+		{
+			"id":"0001",
+			"name":"访问量",
+			"value":123,
+			"children":[
+				{
+					"id":"00010",
+					"name":"深圳新闻网",
+					"value":456
+				},
+				{
+					"id":"00010",
+					"name":"深圳新闻网",
+					"value":456
+				},
+				{
+					"id":"00010",
+					"name":"深圳新闻网",
+					"value":456
+				},
+				{
+					"id":"00010",
+					"name":"深圳新闻网",
+					"value":456
+				},
+				{
+					"id":"00010",
+					"name":"深圳新闻网",
+					"value":456
+				}
+			]
+		}	
+	],
+	"relationtype":1,
+	"relation":[//表示节点之前的关系，用id标识，权重可有可无
+		{"sourceid":"0001","targetid":"0002","weight":124},
+		{"sourceid":"0001","targetid":"00011","weight":127},
+		{"sourceid":"0001","targetid":"00012","weight":129}
+	]
+	
+}

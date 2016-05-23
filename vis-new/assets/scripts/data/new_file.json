@@ -1,0 +1,45 @@
+{
+	"title":"title",
+	"data":[
+		{
+			"id":"0001",
+			"name":"如何学习D3",
+			"value":123,
+			"children":[
+				{
+					"id":"00010",
+					"name":"预备知识",
+					"value":456,
+					"children":[]
+				}
+			]
+		},
+		{
+			"id":"0002",
+			"name":"如何学习D3",
+			"value":123,
+			"children":[
+				{
+					"id":"00020",
+					"name":"预备知识",
+					"value":456,
+					"children":[]
+				},
+				{
+					"id":"00021",
+					"name":"javascript",
+					"value":456,
+					"children":[]
+				}
+			]
+		}
+	],
+	"relationtype":1,
+	"relation":[
+		{"sourceid":"0001","targetid":"0002","weight":124},
+		{"sourceid":"0001","targetid":"00011","weight":127},
+		{"sourceid":"0001","targetid":"00012","weight":129}
+	]
+	
+}
+
